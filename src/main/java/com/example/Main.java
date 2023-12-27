@@ -4,7 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
         Hashmap<String, Integer> obj = new Hashmap<>();
-        String s = "To be or not to be";
+        String s = "Paranoids are not\r\n" + //
+                "paranoid because they are paranoid but\r\n" + //
+                "because they keep putting themselves\r\n" + //
+                "deliberately into paranoid avoidable\r\n" + //
+                "situations";
 
         s = s.toLowerCase();
 
